@@ -30,5 +30,5 @@ app.get('/', (_, res) => {
 })
 
 app.listen(port, () => {
-  console.log('Up on:', port);
+  console.log('Container running on port:', port);
 })

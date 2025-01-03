@@ -2,10 +2,6 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY . .
-
-RUN npm i
-
 ENV DOCKERIZE_VERSION v0.9.1
 
 RUN apk update --no-cache \
